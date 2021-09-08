@@ -1,0 +1,21 @@
+h2{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.btn-danger:hover{
+    background-color: pink;
+    color: maroon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(75, 18, 28);}
+    to{box-shadow: 1px 1px 38px rgb(0, 12, 51);}
+}
